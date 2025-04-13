@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Innovative Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles/about.css">
+</head>
+<body>
+  <!-- Glass Navbar -->
+  <nav class="navbar-glass">
+    <div class="nav-container">
+      <div class="logo">
+        <span class="logo-primary">CODE</span>
+        <span class="logo-accent">.SERVE</span>
+      </div>
+      
+      <ul class="nav-menu">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link active">About</a></li>
+        <li><a href="Service.html" class="nav-link">Services</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+      
+      <button class="mobile-menu-btn" aria-label="Toggle navigation">
+        <div class="menu-bar"></div>
+        <div class="menu-bar"></div>
+        <div class="menu-bar"></div>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Navigation Menu -->
+  <div class="mobile-nav-menu">
+    <ul class="nav-menu">
+      <li><a href="index.html" class="nav-link">Home</a></li>
+      <li><a href="about.html" class="nav-link active">About</a></li>
+      <li><a href="Service.html" class="nav-link">Services</a></li>
+      <li><a href="contact.html" class="nav-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- About Hero Section -->
+  <section class="about-hero">
+    <div class="hero-content">
+      <h1>Building The Future, <span>One Line at a Time</span></h1>
+      <p>Transforming ideas into seamless digital experiences with cutting-edge technology</p>
+    </div>
+  </section>
+
+  <!-- Projects Showcase -->
+  <section class="projects-showcase">
+    <h2 class="section-title">My <span>Creative Works</span></h2>
+    
+    <div class="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="project-card">
+            <div class="project-image" style="background-image: url('/assests/music.jpg');"></div>
+            <div class="project-info">
+              <h3>Modern Music Player</h3>
+              <p>Designed and developed a sleek music player with intuitive controls and seamless playback experience.</p>
+              <div class="tech-stack">
+                <span>UI/UX Design</span>
+                <span>JavaScript</span>
+                <span>HTML5 Audio</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="carousel-item">
+          <div class="project-card">
+            <div class="project-image" style="background-image: url('/assests/chat.jpg');"></div>
+            <div class="project-info">
+              <h3>Web Chat Application</h3>
+              <p>Built a real-time chat interface with modern design and responsive layout.</p>
+              <div class="tech-stack">
+                <span>WebSockets</span>
+                <span>React</span>
+                <span>Node.js</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="carousel-item">
+          <div class="project-card">
+            <div class="project-image" style="background-image: url('/assests/web1.jpg');"></div>
+            <div class="project-info">
+              <h3>Responsive Web Application</h3>
+              <p>Built a custom dashboard application with focus on clean aesthetics and user-friendly interface.</p>
+              <div class="tech-stack">
+                <span>Vue.js</span>
+                <span>SCSS</span>
+                <span>Responsive Design</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="carousel-item">
+          <div class="project-card">
+            <div class="project-image" style="background-image: url('/assests/logp.jpg');"></div>
+            <div class="project-info">
+              <h3>Brand Identity Package</h3>
+              <p>Created complete branding including logo, color palette, typography and brand guidelines.</p>
+              <div class="tech-stack">
+                <span>Logo Design</span>
+                <span>Adobe Illustrator</span>
+                <span>Brand Strategy</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <button class="carousel-control prev" aria-label="Previous project"><i class="fas fa-chevron-left"></i></button>
+      <button class="carousel-control next" aria-label="Next project"><i class="fas fa-chevron-right"></i></button>
+    </div>
+  </section>
+
+  <!-- Solutions Section -->
+  <section class="solutions-section">
+    <h2 class="section-title">Why <span>Choose Me</span></h2>
+    <p class="section-subtitle">Delivering solutions that outperform existing standards</p>
+    
+    <div class="solutions-grid">
+      <div class="solution-card">
+        <div class="solution-icon"><i class="fas fa-bolt"></i></div>
+        <h3>Performance First</h3>
+        <p>Where others deliver bloated solutions, I build lightweight applications that load instantly and run smoothly on any device.</p>
+      </div>
+      
+      <div class="solution-card">
+        <div class="solution-icon"><i class="fas fa-lock"></i></div>
+        <h3>Security Built-In</h3>
+        <p>Unlike standard implementations, I integrate security at every layer from day one, not as an afterthought.</p>
+      </div>
+      
+      <div class="solution-card">
+        <div class="solution-icon"><i class="fas fa-mobile-alt"></i></div>
+        <h3>Truly Responsive</h3>
+        <p>My solutions adapt perfectly to every screen size, going beyond basic media queries to deliver optimal experiences.</p>
+      </div>
+      
+      <div class="solution-card">
+        <div class="solution-icon"><i class="fas fa-paint-brush"></i></div>
+        <h3>Design Focused</h3>
+        <p>I combine technical skills with aesthetic sensibility to create visually stunning yet functional designs.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Approach Section -->
+  <section class="approach-section">
+    <div class="approach-content">
+      <div class="approach-text">
+        <h2>My <span>Development</span> Philosophy</h2>
+        <p>I bridge the gap between ambitious ideas and flawless execution. While others talk about potential, I deliver working solutions that push boundaries.</p>
+        
+        <div class="approach-points">
+          <div class="point">
+            <i class="fas fa-check-circle"></i>
+            <span>Future-proof architecture designed for scale</span>
+          </div>
+          <div class="point">
+            <i class="fas fa-check-circle"></i>
+            <span>Clean, maintainable code with full documentation</span>
+          </div>
+          <div class="point">
+            <i class="fas fa-check-circle"></i>
+            <span>Agile development with continuous integration</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="approach-image">
+        <div class="image-wrapper">
+          <img src="/assests/approach.jpg" alt="Development approach">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="scripts/about.js"></script>
+</body>
+</html>
