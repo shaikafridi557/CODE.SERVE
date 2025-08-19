@@ -7,6 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
@@ -43,43 +44,116 @@
     </ul>
   </div>
 
-  <!-- Hero Section -->
-  <main class="hero-section">
-    <div class="hero-content">
-      <div class="hero-text">
-        <h1>
-          <span class="hero-greeting">Hi, I'm</span>
-          <span class="hero-name">Javeed</span>
-        </h1>
-        
-        <div class="role-container">
-          <span class="static-role">I build</span>
-          <span id="dynamic-role" class="dynamic-role">Web Applications</span>
-          <span class="typing-cursor"></span>
+  <!-- Main container -->
+  <main class="main-container">
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="hero-content">
+        <div class="hero-text">
+            <h1>
+              <span class="hero-greeting">Hi, I'm</span>
+              <span class="hero-name">Javeed</span>
+            </h1>
+          
+          <div class="role-container">
+            <span class="static-role">I build</span>
+            <span id="dynamic-role" class="dynamic-role">Web Applications</span>
+            <span class="typing-cursor"></span>
+          </div>
+          
+          <p class="hero-description">
+            Crafting pixel-perfect interfaces with robust functionality and 
+            seamless user experiences.
+          </p>
+          
+          <div class="cta-group">
+            <a href="about.html" class="primary-cta">View Projects</a>
+            <a href="contact.html" class="secondary-cta">Let's Talk</a>
+          </div>
         </div>
         
-        <p class="hero-description">
-          Crafting pixel-perfect interfaces with robust functionality and 
-          seamless user experiences.
-        </p>
-        
-        <div class="cta-group">
-          <a href="about.html" class="primary-cta">View Projects</a>
-          <a href="contact.html" class="secondary-cta">Let's Talk</a>
+        <div class="hero-visual">
+          <div class="profile-container">
+            <img src="assests/port.jpeg" alt="Javeed - Developer" class="profile-image">
+            <div class="tech-orb"></div>
+          </div>
         </div>
       </div>
-      
-      <div class="hero-visual">
-        <div class="profile-container">
-          <img src="assests/port.jpeg" alt="Javeed - Developer" class="profile-image">
-          <div class="tech-orb"></div>
+    </section>
+    
+    <!-- Projects Section -->
+    <section class="projects-section">
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="projects-grid">
+        <!-- Project 1: Project Pusher -->
+        <div class="project-card">
+          <img src="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Project Pusher" class="project-image">
+          <div class="project-content">
+            <h3 class="project-title">Project Pusher</h3>
+            <p class="project-description">A comprehensive project management platform with real-time updates, task tracking, and team collaboration features.</p>
+            <div class="project-links">
+              <a href="https://projectpusher-ghg9.onrender.com/" target="_blank" class="project-link live-link">View Live</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: Project Generator -->
+        <div class="project-card">
+          <img src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Project Generator" class="project-image">
+          <div class="project-content">
+            <h3 class="project-title">Project Generator</h3>
+            <p class="project-description">Smart project scaffolding tool that automates the setup of development environments and boilerplate code.</p>
+            <div class="project-links">
+              <a href="https://project-generator-blnt.vercel.app/" target="_blank" class="project-link live-link">View Live</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: Garish Studios -->
+        <div class="project-card">
+          <img src="https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Garish Client Works" class="project-image">
+          <div class="project-content">
+            <h3 class="project-title">Garistha infra Developers</h3>
+            <p class="project-description">A portfolio showcase featuring creative client projects, custom web solutions, and digital experiences.</p>
+            <div class="project-links">
+              <a href="https://garishtatesting.netlify.app/" target="_blank" class="project-link live-link">View Live</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4: Yodha Gallery -->
+        <div class="project-card">
+          <img src="https://images.pexels.com/photos/1037992/pexels-photo-1037992.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Yodha Gallery" class="project-image">
+          <div class="project-content">
+            <h3 class="project-title">Yodha Gallery</h3>
+            <p class="project-description">Interactive digital gallery platform with dynamic content management and responsive image displays.</p>
+            <div class="project-links">
+              <a href="https://yodhagallerytarial.netlify.app/" target="_blank" class="project-link live-link">View Live</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5: Sabari Studios -->
+        <div class="project-card">
+          <img src="https://images.pexels.com/photos/265685/pexels-photo-265685.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Sabari Studios" class="project-image">
+          <div class="project-content">
+            <h3 class="project-title">Sabari Studios</h3>
+            <p class="project-description">Professional creative studio website showcasing multimedia production services and portfolio works.</p>
+            <div class="project-links">
+              <a href="https://sabaristudios.com" target="_blank" class="project-link live-link">View Live</a>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
   </main>
 
   <script src="scripts/particles.js"></script>
   <script src="scripts/gsap-animations.js"></script>
-
+  
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/919346142139?text=Hello!%20I%20was%20impressed%20by%20your%20portfolio%20and%20would%20love%20to%20connect." class="whatsapp-float" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-whatsapp"></i>
+  </a>
 </body>
 </html>
