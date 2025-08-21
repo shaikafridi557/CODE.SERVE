@@ -1,24 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <!-- Homepage: Highest Priority -->
   <url>
-    <loc>https://shaikafridi557.github.io/CODE.SERVE/</loc>
-    <lastmod>2023-11-20</lastmod>
-    <changefreq>weekly</changefreq>
+    <loc>https://codeserve.netlify.app/index.html</loc>
+    <lastmod>2024-05-22</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
+  
+  <!-- About Page -->
   <url>
-    <loc>https://shaikafridi557.github.io/CODE.SERVE/about</loc>
-    <lastmod>2023-11-20</lastmod>
+    <loc>https://codeserve.netlify.app/about.html</loc>
+    <lastmod>2024-05-22</lastmod>
+    <changefreq>yearly</changefreq>
     <priority>0.8</priority>
   </url>
+  
+  <!-- Services Page -->
   <url>
-    <loc>https://shaikafridi557.github.io/CODE.SERVE/Service</loc>
-    <lastmod>2023-11-20</lastmod>
-    <priority>0.8</priority>
+    <loc>https://codeserve.netlify.app/Service.html</loc>
+    <lastmod>2024-05-22</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.9</priority>
   </url>
+  
+  <!-- Contact Page -->
   <url>
-    <loc>https://shaikafridi557.github.io/CODE.SERVE/contact</loc>
-    <lastmod>2023-11-20</lastmod>
+    <loc>https://codeserve.netlify.app/contact.html</loc>
+    <lastmod>2024-05-22</lastmod>
+    <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
+
 </urlset>
